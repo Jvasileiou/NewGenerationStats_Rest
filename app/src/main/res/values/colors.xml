@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#B8003D</color>
+
+    <color name="green">#58AB0D</color>
+    <color name="red">#ffba170e</color>
+    <color name="redDome">#bf8d8c</color>
+
+    <color name="backCountSt">#f4f4f4</color>
+
+    <color name="switch_color">#07a324</color>
+</resources>

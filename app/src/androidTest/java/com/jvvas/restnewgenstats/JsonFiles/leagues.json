@@ -1,0 +1,24 @@
+{
+  "leagues": [
+    {
+      "league_id": "a_erasitechniko",
+      "name": "\u0391 \u0395\u03c1\u03b1\u03c3\u03b9\u03c4\u03b5\u03c7\u03bd\u03b9\u03ba\u03cc",
+      "description": null
+    },
+    {
+      "league_id": "filikoi_agones",
+      "name": "\u03a6\u03b9\u03bb\u03b9\u03ba\u03bf\u03af \u0391\u03b3\u03ce\u03bd\u03b5\u03c2",
+      "description": null
+    },
+    {
+      "league_id": "footballleague",
+      "name": "FootballLeague",
+      "description": null
+    },
+    {
+      "league_id": "supercup",
+      "name": "SuperCup",
+      "description": null
+    }
+  ]
+}

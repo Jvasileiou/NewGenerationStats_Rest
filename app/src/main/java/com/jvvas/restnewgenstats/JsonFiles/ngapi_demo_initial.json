@@ -1,0 +1,507 @@
+{
+  "league": "FootballLeague",
+  "league_id": "L0000001",
+  "season": "2019-2020",
+  "match_day": 4,
+  "place": "Τριγλία",
+  "field": "Γήπεδο Τριγλίας",
+  "organization": "Football League",
+  "status": "Default",
+  "date": "20-10-2019",
+  "time": "16:00",
+  "colour": "#01FF70##FF4136",
+  "basicPlayers": "#",
+  "replacementPlayers": "#",
+  "delaysA": 0,
+  "delaysB": 0,
+  "delaysExtraA": 0,
+  "delaysExtraB": 0,
+  "referee": "10000005",
+  "refereeHelperA": "10000006",
+  "refereeHelperB": "10000007",
+  "refereeD": "10000008",
+  "teamA": {
+    "team_id": "po_triglia",
+    "name": "ΠΟ ΤΡΙΓΛΙΑΣ",
+    "coach": {
+      "coach_id": "c892",
+      "surname": "test",
+      "name": "test"
+    },
+    "players": [
+      {
+        "player_id": "1005",
+        "surname": "ΚΟΥΡΕΛΛΑΣ",
+        "name": "ΝΙΚΟΣ",
+        "number": 12,
+        "position": "LB"
+      },
+      {
+        "player_id": "1009",
+        "surname": "ΝΤΟΥΝΚΑ",
+        "name": "ΓΙΑΝΝΗΣ",
+        "number": 10,
+        "position": "CF"
+      },
+      {
+        "player_id": "1013",
+        "surname": "ΣΓΟΥΡΗΣ",
+        "name": "ΦΩΤΗΣ",
+        "number": 98,
+        "position": "CB"
+      },
+      {
+        "player_id": "1017",
+        "surname": "ΠΑΠΑΔΗΜΗΤΡΙΟΥ",
+        "name": "ΙΑΣΩΝΑΣ",
+        "number": 9,
+        "position": "CF"
+      },
+      {
+        "player_id": "1000",
+        "surname": "ΜΙΛΚΟΥΔΗΣ",
+        "name": "ΓΙΑΝΝΗΣ",
+        "number": 5,
+        "position": "AM"
+      },
+      {
+        "player_id": "1026",
+        "surname": "ΓΚΑΤΖΙΟΠΑΣ",
+        "name": "ΑΓΓΕΛΟΣ",
+        "number": 77,
+        "position": "RB"
+      },
+      {
+        "player_id": "1025",
+        "surname": "ΚΑΛΟΥΔΗΣ",
+        "name": "ΛΕΜΟΝΗΣ",
+        "number": 6,
+        "position": "AM"
+      },
+      {
+        "player_id": "1021",
+        "surname": "ΕΠΠΑΣ",
+        "name": "ΠΑΥΛΟΣ",
+        "number": 22,
+        "position": "AM"
+      },
+      {
+        "player_id": "1018",
+        "surname": "ΜΕΝΙΚΑΛΙ",
+        "name": "ΛΟΡΕΝΤΖΟ",
+        "number": 18,
+        "position": "RB"
+      },
+      {
+        "player_id": "1027",
+        "surname": "ΖΟΡΜΠΑΣ",
+        "name": "ΠΑΝΑΓΙΩΤΗΣ",
+        "number": 26,
+        "position": "CM"
+      },
+      {
+        "player_id": "1018",
+        "surname": "ΠΑΛΑΒΡΑΚΗΣ",
+        "name": "ΣΤΕΦΑΝΟΣ",
+        "number": 16,
+        "position": "GK"
+      },
+      {
+        "player_id": "1022",
+        "surname": "ΚΑΡΤΣΑΜΠΑΣ",
+        "name": "ΧΡΗΣΤΟΣ",
+        "number": 23,
+        "position": "CM"
+      },
+      {
+        "player_id": "1023",
+        "surname": "ΠΑΝΤΕΚΙΔΗΣ",
+        "name": "ΦΩΤΗΣ",
+        "number": 32,
+        "position": "CM"
+      },
+      {
+        "player_id": "1010",
+        "surname": "ΑΜΑΡΑΝΤΙΔΗΣ",
+        "name": "ΒΑΣΙΛΗΣ",
+        "number": 88,
+        "position": "AM"
+      },
+      {
+        "player_id": "1012",
+        "surname": "ΜΠΡΟΥΤΖΗΣ",
+        "name": "ΓΡΗΓΟΡΗΣ",
+        "number": 25,
+        "position": "AM"
+      },
+      {
+        "player_id": "1001",
+        "surname": "ΠΟΤΣΙ",
+        "name": "ΗΛΙΑΣ",
+        "number": 14,
+        "position": "AM"
+      },
+      {
+        "player_id": "1002",
+        "surname": "ΣΓΟΥΡΗΣ",
+        "name": "ΔΗΜΗΤΡΗΣ",
+        "number": 3,
+        "position": "AM"
+      },
+      {
+        "player_id": "1008",
+        "surname": "ΒΟΥΡΑΣ",
+        "name": "ΗΛΙΑΣ",
+        "number": 17,
+        "position": "GK"
+      },
+      {
+        "player_id": "1006",
+        "surname": "ΚΟΥΛΠΑΛΙΔΗΣ",
+        "name": "ΑΒΡΑΑΜ",
+        "number": 33,
+        "position": "LB"
+      },
+      {
+        "player_id": "1016",
+        "surname": "ΜΑΝΤΖΙΡΗΣ",
+        "name": "ΛΑΖΑΡΟΣ",
+        "number": 95,
+        "position": "CF"
+      },
+      {
+        "player_id": "1020",
+        "surname": "ΑΘΑΝΑΣΙΑΔΗΣ",
+        "name": "ΣΑΒΒΑΣ",
+        "number": 21,
+        "position": "SS"
+      },
+      {
+        "player_id": "1015",
+        "surname": "ΦΡΟΣΙΝΗΣ",
+        "name": "ΦΙΛΗΜΩΝ",
+        "number": 31,
+        "position": "AM"
+      },
+      {
+        "player_id": "1024",
+        "surname": "ΜΠΟΥΛΚΟΥΡΙΔΗΣ",
+        "name": "ΗΛΙΑΣ",
+        "number": 29,
+        "position": "AM"
+      },
+      {
+        "player_id": "1007",
+        "surname": "ΣΑΒΡΑΝΙΔΗΣ",
+        "name": "ΣΤΑΘΗΣ",
+        "number": 8,
+        "position": "CM"
+      },
+      {
+        "player_id": "1019",
+        "surname": "ΕΥΘΥΜΙΑΔΗΣ",
+        "name": "ΓΡΗΓΟΡΗΣ",
+        "number": 7,
+        "position": "AM"
+      },
+      {
+        "player_id": "1003",
+        "surname": "ΤΣΕΜΠΕΡΙΔΗΣ",
+        "name": "ΑΛΕΞΗΣ",
+        "number": 4,
+        "position": "AM"
+      },
+      {
+        "player_id": "1011",
+        "surname": "ΚΕΧΑΓΙΑΣ",
+        "name": "ΑΝΑΣΤΑΣΙΟΣ",
+        "number": 20,
+        "position": "SS"
+      },
+      {
+        "player_id": "1004",
+        "surname": "ΖΩΤΟΣ",
+        "name": "ΠΑΥΛΟΣ",
+        "number": 2,
+        "position": "RB"
+      }
+    ]
+  },
+  "teamB": {
+    "team_id": "trikala",
+    "name": "ΤΡΙΚΑΛΑ",
+    "coach": {
+      "coach_id": "C126",
+      "surname": "ΑΜΑΝΑΤΙΔΗΣ",
+      "name": "ΠΕΡΙΚΛΗΣ"
+    },
+    "players": [
+      {
+        "player_id": "1081",
+        "surname": "ΤΣΙΠΡΑΣ",
+        "name": "ΑΝΔΡΕΑΣ",
+        "number": 7,
+        "position": "LW",
+        "selection": "basic"
+      },
+      {
+        "player_id": "1074",
+        "surname": "ΕΛΕΥΘΕΡΙΑΔΗΣ",
+        "name": "ΛΑΖΑΡΟΣ",
+        "number": 88,
+        "position": "MD",
+        "selection": "replacement"
+      },
+      {
+        "player_id": "1082",
+        "surname": "ΝΙΚΛΗΤΣΙΩΤΗΣ",
+        "name": "ΓΙΩΡΓΟΣ",
+        "number": 11,
+        "position": "LW",
+        "selection": "replacement"
+      },
+      {
+        "player_id": "1080",
+        "surname": "ΠΕΛΚΑΣ",
+        "name": "ΒΑΣΙΛΗΣ",
+        "number": 74,
+        "position": "AM",
+        "selection": "replacement"
+      },
+      {
+        "player_id": "1071",
+        "surname": "ΑΙΒΑΖΟΓΛΟΥ",
+        "name": "ΗΛΙΑΣ",
+        "number": 2,
+        "position": "RB",
+        "selection": "false"
+      },
+      {
+        "player_id": "1063",
+        "surname": "ΜΠΟΥΡΟΥΣΗΣ",
+        "name": "ΧΡΗΣΤΟΣ",
+        "number": 16,
+        "position": "GK",
+        "selection": "false"
+      },
+      {
+        "player_id": "1073",
+        "surname": "ΑΛΕΞΑΝΔΡΗΣ",
+        "name": "ΑΝΑΣΤΑΣΙΟΣ",
+        "number": 29,
+        "position": "MD",
+        "selection": "false"
+      },
+      {
+        "player_id": "1077",
+        "surname": "ΤΕΓΚΟΥΣΗΣ",
+        "name": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
+        "number": 6,
+        "position": "CM",
+        "selection": "basic"
+      },
+      {
+        "player_id": "1072",
+        "surname": "ΓΡΗΓΟΡΟΠΟΥΛΟΣ",
+        "name": "ΟΡΕΣΤΗΣ",
+        "number": 17,
+        "position": "RB",
+        "selection": "replacement"
+      },
+      {
+        "player_id": "1076",
+        "surname": "ΠΑΠΑΓΕΩΡΓΙΟΥ",
+        "name": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
+        "number": 55,
+        "position": "DM",
+        "selection": "replacement"
+      },
+      {
+        "player_id": "1067",
+        "surname": "DJALOSHI",
+        "name": "ZOG",
+        "number": 20,
+        "position": "CB",
+        "selection": "false"
+      },
+      {
+        "player_id": "1084",
+        "surname": "ALEKSIC",
+        "name": "BOJAN",
+        "number": 8,
+        "position": "CF",
+        "selection": "basic"
+      },
+      {
+        "player_id": "1085",
+        "surname": "ΣΤΑΜΑΤΗΣ",
+        "name": "ΑΝΔΡΕΑΣ",
+        "number": 9,
+        "position": "CF",
+        "selection": "basic"
+      },
+      {
+        "player_id": "1061",
+        "surname": "ΓΙΑΚΟΥΜΗΣ",
+        "name": "ΑΣΤΕΡΙΟΣ",
+        "number": 21,
+        "position": "GK",
+        "selection": "basic"
+      },
+      {
+        "player_id": "1060",
+        "surname": "ΖΑΡΟΠΟΥΛΟΣ",
+        "name": "ΜΙΧΑΛΗΣ",
+        "number": 1,
+        "position": "GK",
+        "selection": "replacement"
+      },
+      {
+        "player_id": "1079",
+        "surname": "PELAEZ",
+        "name": "DIEGO",
+        "number": 14,
+        "position": "AM",
+        "selection": "basic"
+      },
+      {
+        "player_id": "1068",
+        "surname": "ΔΟΣΗΣ",
+        "name": "ΙΩΑΝΝΗΣ",
+        "number": 77,
+        "position": "LB",
+        "selection": "basic"
+      },
+      {
+        "player_id": "1065",
+        "surname": "ΓΙΑΝΝΙΤΣΗΣ",
+        "name": "ΜΙΧΑΛΗΣ",
+        "number": 3,
+        "position": "CB",
+        "selection": "basic"
+      },
+      {
+        "player_id": "1064",
+        "surname": "ΟΙΚΟΝΟΜΟΠΟΥΛΟΣ",
+        "name": "ΧΑΡΑΛΑΜΠΟΣ",
+        "number": 23,
+        "position": "CB",
+        "selection": "false"
+      },
+      {
+        "player_id": "1070",
+        "surname": "ΣΑΝΔΡΑΒΕΛΗΣ",
+        "name": "ΔΗΜΗΤΡΗΣ",
+        "number": 22,
+        "position": "RB",
+        "selection": "basic"
+      },
+      {
+        "player_id": "1069",
+        "surname": "ΝΙΑΡΟΣ",
+        "name": "ΧΡΗΣΤΟΣ",
+        "number": 31,
+        "position": "LB",
+        "selection": "false"
+      },
+      {
+        "player_id": "1066",
+        "surname": "ΒΕΡΤΖΟΣ",
+        "name": "ΑΓΓΕΛΟΣ",
+        "number": 5,
+        "position": "CB",
+        "selection": "basic"
+      },
+      {
+        "player_id": "1078",
+        "surname": "ΛΩΤΤΑΣ",
+        "name": "ΑΡΙΣΤΕΙΔΗΣ",
+        "position": "AM",
+        "number": 10,
+        "selection": "replacement"
+      },
+      {
+        "player_id": "1075",
+        "surname": "ΡΙΖΟΓΙΑΝΝΗΣ",
+        "name": "ΠΑΝΤΕΛΗΣ",
+        "number": 4,
+        "position": "DM",
+        "selection": "basic"
+      },
+      {
+        "player_id": "1083",
+        "surname": "ΚΑΜΠΛΙΩΝΗΣ",
+        "name": "ΑΝΤΩΝΗΣ",
+        "number": 19,
+        "position": "RW",
+        "selection": "false"
+      },
+      {
+        "player_id": "1062",
+        "surname": "ΨΩΜΙΑΔΗΣ",
+        "name": "ΧΡΗΣΤΟΣ",
+        "number": 13,
+        "position": "GK",
+        "selection": "false"
+      }
+    ]
+  },
+  "LIVE": {
+    "goal": "0#0",
+    "shootIn": "0#0",
+    "offside": "0#0",
+    "faoulKata": "0#0",
+    "dieisdusiIn": "0#0",
+    "kopsimo": "0#0",
+    "xamenoPenaltyIn": "0#0",
+    "shootOut": "0#0",
+    "klepsimo": "0#0",
+    "yellowCard": "0#0",
+    "dieisdusiOut": "0#0",
+    "penaltyScore": "0#0",
+    "penalty": "0#0",
+    "apoFaoulOut": "0#0",
+    "cornerRight": "0#0",
+    "block": "0#0",
+    "gemismaOut": "0#0",
+    "apoKornerIn": "0#0",
+    "apokrousi": "0#0",
+    "xameniEukairia": "0#0",
+    "kefaliaOut": "0#0",
+    "apoKornerOut": "0#0",
+    "kefaliaIn": "0#0",
+    "extraTimeScore": "0#0",
+    "cornerLeft": "0#0",
+    "gemismaIn": "0#0",
+    "xamenoPenaltyOut": "0#0",
+    "apoFaoulIn": "0#0",
+    "assist": "0#0",
+    "faoulYper": "0#0",
+    "redCard": "0#0",
+    "epemvasi": "0#0",
+    "dokari": "0#0",
+    "lathos": "0#0"
+  },
+  "ActionsLive": [],
+  "game_time": 0,
+  "RefereeObj" : {
+    "surname" : "ΤΣΟΠΟΥΛΙΔΗΣ",
+    "name" : "ΠΑΝΑΓΙΩΤΗΣ",
+    "organization" : "ΞΑΝΘΗΣ"
+  },
+  "RefereeHelperAObj" : {
+    "surname" : "ΚΗΛΙΚΙΩΤΗΣ",
+    "name" : "ΔΗΜΗΤΡΗΣ",
+    "organization" : "ΞΑΝΘΗΣ"
+  },
+  "RefereeHelperBObj" : {
+    "surname" : "ΚΟΥΒΑΛΑΚΗΣ",
+    "name" : "ΠΑΝΑΓΙΩΤΗΣ",
+    "organization" : "ΔΡΑΜΑ"
+  },
+  "RefereeDObj" : {
+    "surname" : "ΧΟΡΟΖΟΓΛΟΥ",
+    "name" : "ΒΑΣΙΛΕΙΟΣ",
+    "organization" : "ΔΡΑΜΑ"
+  }
+}

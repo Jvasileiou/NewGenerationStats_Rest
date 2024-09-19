@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView_EpituximeniDieisdusi"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:background="#5bb746"
+        android:gravity="center"
+        android:text="Επιτυχ. Διεισδυση"
+        android:textAllCaps="true"
+        android:textColor="#0d0d0d"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_ApotuximeniDieisdusi"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="32dp"
+        android:background="#c95042"
+        android:gravity="center"
+        android:text="Αποτυχ. Διεισδυση"
+        android:textAllCaps="true"
+        android:textColor="#0d0d0d"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_Kopsimo"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#b4ad24"
+        android:gravity="center"
+        android:text="Ποιος τον εκοψε?"
+        android:textAllCaps="true"
+        android:textColor="#0d0d0d"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView_EscOfDieisdusi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_EpituximeniDieisdusi" />
+
+    <TextView
+        android:id="@+id/textView_EscOfDieisdusi"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="16dp"
+        android:background="#afafab"
+        android:gravity="center"
+        android:text="Esc"
+        android:textAllCaps="true"
+        android:textColor="#0d0d0d"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_OkOfDieisdusi"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="#afafab"
+        android:gravity="center"
+        android:text="Ok"
+        android:textAllCaps="true"
+        android:textColor="#0d0d0d"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <android.support.constraint.Group
+        android:id="@+id/group_hideForStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="textView_ApotuximeniDieisdusi,textView_EpituximeniDieisdusi" />
+
+    <android.support.constraint.Group
+        android:id="@+id/group_showForStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="textView_OkOfDieisdusi,textView_Kopsimo" />
+
+</android.support.constraint.ConstraintLayout>

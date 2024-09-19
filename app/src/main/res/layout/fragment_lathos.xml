@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/textView_TroposLathous"
+        android:layout_width="130dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Τροπος Λαθους"
+        android:textAllCaps="true"
+        android:textColor="#0d0d0d"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_Klepsimo"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#b4ad24"
+        android:gravity="center"
+        android:text="Κλεψιμο?"
+        android:textAllCaps="true"
+        android:textColor="#0d0d0d"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView_EscOfLathos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox_Pasa" />
+
+    <TextView
+        android:id="@+id/textView_EscOfLathos"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="8dp"
+        android:background="#afafab"
+        android:gravity="center"
+        android:text="Esc"
+        android:textAllCaps="true"
+        android:textColor="#0d0d0d"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_OkOfLathos"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        android:background="#afafab"
+        android:gravity="center"
+        android:text="Ok"
+        android:textAllCaps="true"
+        android:textColor="#0d0d0d"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox_Kontrol"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:text="ΚΟΝΤΡΟΛ"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_TroposLathous" />
+
+    <CheckBox
+        android:id="@+id/checkBox_Pasa"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:text="ΚΑΚΗ ΠΑΣΑ"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="@+id/checkBox_Kontrol"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox_Kontrol" />
+
+    <android.support.constraint.Group
+        android:id="@+id/group_hideForSteal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="textView_TroposLathous,checkBox_Kontrol,checkBox_Pasa" />
+
+    <android.support.constraint.Group
+        android:id="@+id/group_showForSteal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="textView_Klepsimo,textView_OkOfLathos" />
+
+</android.support.constraint.ConstraintLayout>

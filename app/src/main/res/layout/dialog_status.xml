@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/textView_Title"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:background="#2a4525"
+        android:gravity="center"
+        android:text="Match Status"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:padding="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/button_OkStatus"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_Title">
+
+        <RadioButton
+            android:id="@+id/radioButton_PreGame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PreGame"
+            android:textAllCaps="true" />
+
+        <RadioButton
+            android:id="@+id/radioButton_FirstHalf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First Half"
+            android:textAllCaps="true" />
+
+        <RadioButton
+            android:id="@+id/radioButton_HalfTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Half Time"
+            android:textAllCaps="true" />
+
+        <RadioButton
+            android:id="@+id/radioButton_SecondHalf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Second Half"
+            android:textAllCaps="true" />
+
+        <RadioButton
+            android:id="@+id/radioButton_Final"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Final"
+            android:textAllCaps="true" />
+
+        <RadioButton
+            android:id="@+id/radioButton_NormalEnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Normal Time End "
+            android:textAllCaps="true" />
+
+        <RadioButton
+            android:id="@+id/radioButton_ExtraTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Extra Time First"
+            android:textAllCaps="true" />
+
+        <RadioButton
+            android:id="@+id/radioButton_ExtraTimeSecond"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Extra Time Second"
+            android:textAllCaps="true" />
+
+        <RadioButton
+            android:id="@+id/radioButton_Penalty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Penalty"
+            android:textAllCaps="true" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button_OkStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:text="OK"
+        app:layout_constraintBottom_toBottomOf="@+id/radioGroup2"
+        app:layout_constraintEnd_toStartOf="@+id/editText_Delays"
+        app:layout_constraintStart_toEndOf="@+id/radioGroup2"
+        app:layout_constraintTop_toTopOf="@+id/radioGroup2" />
+
+    <Button
+        android:id="@+id/button_StartChrFrom"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:text="Start From"
+        app:layout_constraintBaseline_toBaselineOf="@+id/editText_Min"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView_bbLeft" />
+
+    <ImageView
+        android:id="@+id/imageView_bbLeft"
+        android:layout_width="120dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button_StartChrFrom"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:srcCompat="@drawable/back_login" />
+
+    <EditText
+        android:id="@+id/editText_Min"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Min"
+        android:inputType="phone"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#eaeaea"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView_bbLeft"
+        app:layout_constraintEnd_toEndOf="@+id/imageView_bbLeft"
+        app:layout_constraintStart_toStartOf="@+id/imageView_bbLeft"
+        app:layout_constraintTop_toTopOf="@+id/imageView_bbLeft" />
+
+    <EditText
+        android:id="@+id/editText_Delays"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="54dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/button_OkDelays"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_Title" />
+
+    <Button
+        android:id="@+id/button_OkDelays"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="Delays Ok"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/editText_Delays"
+        app:layout_constraintStart_toStartOf="@+id/editText_Delays"
+        app:layout_constraintTop_toBottomOf="@+id/editText_Delays" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="3dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="54dp"
+
+        android:background="#2b411c"
+        app:layout_constraintBottom_toBottomOf="@+id/radioGroup2"
+        app:layout_constraintEnd_toStartOf="@+id/editText_Delays"
+        app:layout_constraintStart_toEndOf="@+id/button_OkStatus"
+        app:layout_constraintTop_toBottomOf="@+id/textView_Title" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="0dp"
+        android:layout_height="3dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="#2b411c"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+</android.support.constraint.ConstraintLayout>

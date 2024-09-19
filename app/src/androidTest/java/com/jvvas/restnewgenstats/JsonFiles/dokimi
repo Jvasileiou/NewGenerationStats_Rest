@@ -1,0 +1,437 @@
+{
+  "league": "DOKIMI",
+  "league_id": "L0000001",
+  "season": "2016-2017",
+  "match_day": 1,
+  "field": "",
+  "place": "",
+  "organization": null,
+  "status": "Default",
+  "date": "31-05-2020",
+  "time": "19:00",
+  "teamA": {
+    "team_id": "ae_falirou",
+    "name": "\u0391\u0395 \u03a6\u03b1\u03bb\u03ae\u03c1\u03bf\u03c5",
+    "colour": null,
+    "coach": {
+      "coach_id": "karamicha",
+      "surname": "\u039a\u03b1\u03c1\u03b1\u03c3\u03c4\u03ac\u03b8\u03b7\u03c2",
+      "name": "\u039c\u03b9\u03c7\u03b1\u03bb\u03b7\u03c2"
+    },
+    "players": [
+      {
+        "player_id": "302",
+        "surname": "\u03a3\u03c0\u03b1\u03bd\u03cc\u03c0\u03bf\u03c5\u03bb\u03bf\u03c2",
+        "name": "\u039c\u03b9\u03c7\u03b1\u03bb\u03b7\u03c2",
+        "number": 7,
+        "position": "CB",
+        "selection": null
+      },
+      {
+        "player_id": "303",
+        "surname": "\u03a1\u03ad\u03c0\u03c0\u03b1\u03c2",
+        "name": "\u0395\u03bb\u03bd\u03c4\u03b5\u03c1",
+        "number": 97,
+        "position": "CB",
+        "selection": null
+      },
+      {
+        "player_id": "304",
+        "surname": "\u039d.\u03a1\u03ad\u03c0\u03c0\u03b1\u03c2",
+        "name": "\u03a0\u03b1\u03bd\u03b1\u03b3\u03b9\u03c9\u03c4\u03b7\u03c2",
+        "number": 16,
+        "position": "GK",
+        "selection": null
+      },
+      {
+        "player_id": "305",
+        "surname": "\u03a3\u03b1\u03b3\u03bc\u03b1\u03c4\u03cc\u03c0\u03bf\u03c5\u03bb\u03bf\u03c2",
+        "name": "\u039c\u03b1\u03c1\u03b9\u03bf\u03c2",
+        "number": 11,
+        "position": "CB",
+        "selection": null
+      },
+      {
+        "player_id": "306",
+        "surname": "\u039b\u03b1\u03bb\u03b1\u03c2",
+        "name": "\u039d\u03c4\u03b9\u03bc\u03b9\u03c4\u03c1\u03bf",
+        "number": 8,
+        "position": "CB",
+        "selection": null
+      },
+      {
+        "player_id": "307",
+        "surname": "\u0394\u03ad\u03ba\u03bf\u03c2",
+        "name": "\u0393\u03b9\u03c9\u03c1\u03b3\u03bf\u03c2",
+        "number": 15,
+        "position": "CB",
+        "selection": null
+      },
+      {
+        "player_id": "308",
+        "surname": "\u03a1\u03ac\u03ba\u03b1\u03c2",
+        "name": "\u039d\u03b9\u03ba\u03bb\u03b1\u03c2",
+        "number": 9,
+        "position": "CB",
+        "selection": null
+      },
+      {
+        "player_id": "309",
+        "surname": "\u039a\u03bb\u03b5\u03b9\u03c4\u03c3\u03b9\u03ce\u03c4\u03b7\u03c2",
+        "name": "\u039a\u03b5\u03bd\u03b1\u03bd\u03c4",
+        "number": 17,
+        "position": "RM",
+        "selection": null
+      },
+      {
+        "player_id": "310",
+        "surname": "\u039d\u03ac\u03c4\u03c3\u03bf\u03c2",
+        "name": "\u0391\u03bd\u03c4\u03c1\u03b5",
+        "number": 91,
+        "position": "RM",
+        "selection": null
+      },
+      {
+        "player_id": "311",
+        "surname": "\u0391\u03bd\u03b8\u03cc\u03c0\u03bf\u03c5\u03bb\u03bf\u03c2",
+        "name": "\u03a0\u03b5\u03c4\u03c1\u03bf\u03c2",
+        "number": 20,
+        "position": "CF",
+        "selection": null
+      },
+      {
+        "player_id": "312",
+        "surname": "\u0395\u03c5\u03c3\u03c4\u03c1\u03b1\u03c4\u03b9\u03ac\u03b4\u03b7\u03c2",
+        "name": "\u039a\u03c9\u03c3\u03c4\u03b1\u03c2",
+        "number": 25,
+        "position": "CF",
+        "selection": null
+      },
+      {
+        "player_id": "313",
+        "surname": "\u03a0\u03b1\u03c0\u03b1\u03c1\u03af\u03b6\u03bf\u03c2",
+        "name": "Theodoros",
+        "number": 56,
+        "position": "CF",
+        "selection": null
+      },
+      {
+        "player_id": "314",
+        "surname": "\u03a0\u03b1\u03bc\u03c0\u03ad\u03c1\u03b7\u03c2",
+        "name": "\u0393\u03b9\u03b1\u03bd\u03bd\u03b7\u03c2",
+        "number": 18,
+        "position": "RW",
+        "selection": null
+      },
+      {
+        "player_id": "315",
+        "surname": "\u03a4\u03c3\u03b9\u03cc\u03b3\u03ba\u03b1\u03c2",
+        "name": "\u0391\u03bb\u03b5\u03c6",
+        "number": 5,
+        "position": "LW",
+        "selection": null
+      },
+      {
+        "player_id": "316",
+        "surname": "\u03a6\u03c1\u03bf\u03c3\u03cd\u03bd\u03b7\u03c2",
+        "name": "\u0393\u03b9\u03b1\u03bd\u03bd\u03b7\u03c2",
+        "number": 89,
+        "position": "AM",
+        "selection": null
+      },
+      {
+        "player_id": "317",
+        "surname": "\u03a0\u03b1\u03c1\u03bf\u03cd\u03c3\u03b7\u03c2",
+        "name": "\u03a7\u03c1\u03b7\u03c3\u03c4\u03bf\u03c2",
+        "number": 4,
+        "position": "SS",
+        "selection": null
+      },
+      {
+        "player_id": "318",
+        "surname": "\u0391\u03c3\u03c0\u03b9\u03ce\u03c4\u03b7\u03c2",
+        "name": "\u039c\u03b1\u03c1\u03ba\u03bf",
+        "number": 6,
+        "position": "SS",
+        "selection": null
+      },
+      {
+        "player_id": "319",
+        "surname": "\u0391\u03bd\u03b1\u03c3\u03c4\u03b1\u03c3\u03b9\u03ac\u03b4\u03b7\u03c2",
+        "name": "\u039b\u03bf\u03c5\u03ba\u03b1\u03c2",
+        "number": 1,
+        "position": "GK",
+        "selection": null
+      },
+      {
+        "player_id": "320",
+        "surname": "\u039a\u03b1\u03c3\u03b9\u03b1\u03bd\u03cc\u03c2",
+        "name": "\u0392\u03b1\u03c3\u03b9\u03bb\u03b7\u03c2",
+        "number": 99,
+        "position": "LB",
+        "selection": null
+      },
+      {
+        "player_id": "321",
+        "surname": "\u03a3\u03c5\u03bc\u03b5\u03c9\u03bd\u03af\u03b4\u03b7\u03c2",
+        "name": "\u0392\u03b1\u03c3\u03b9\u03bb\u03b7\u03c2",
+        "number": 3,
+        "position": "CB",
+        "selection": null
+      }
+    ]
+  },
+  "teamB": {
+    "team_id": "paok",
+    "name": "\u03a0\u0391\u039f\u039a",
+    "colour": null,
+    "coach": {
+      "coach_id": "fereampe",
+      "surname": "\u03a6\u03b5\u03c1\u03b5\u03ca\u03c1\u03b1",
+      "name": "\u0391\u03bc\u03c0\u03b5\u03bb"
+    },
+    "players": [
+      {
+        "player_id": "150",
+        "surname": "\u03a0\u03b1\u03c3\u03c7\u03b1\u03bb\u03b1\u03ba\u03b7\u03c2",
+        "name": "\u0391\u03bb\u03ad\u03be\u03b1\u03bd\u03b4\u03c1\u03bf\u03c2",
+        "number": 1,
+        "position": "GK",
+        "selection": null
+      },
+      {
+        "player_id": "151",
+        "surname": "\u03a3\u03bf\u03ac\u03c1\u03b5\u03c2",
+        "name": "\u03a1\u03bf\u03bd\u03c4\u03c1\u03af\u03b3\u03ba\u03bf",
+        "number": 2,
+        "position": "RB",
+        "selection": null
+      },
+      {
+        "player_id": "152",
+        "surname": "\u039c\u03ac\u03c4\u03bf\u03c2",
+        "name": "\u039b\u03b5\u03bf\u03bd\u03ac\u03c1\u03bd\u03c4\u03bf",
+        "number": 3,
+        "position": "RB",
+        "selection": null
+      },
+      {
+        "player_id": "153",
+        "surname": "\u0399\u03bd\u03b3\u03ba\u03b1\u03c3\u03bf\u03bd",
+        "name": "\u03a3\u03b2\u03ad\u03c1\u03b9\u03c1",
+        "number": 4,
+        "position": "CB",
+        "selection": null
+      },
+      {
+        "player_id": "154",
+        "surname": "\u0392\u03b1\u03c1\u03ad\u03bb\u03b1",
+        "name": "\u03a6\u03b5\u03c1\u03bd\u03b1\u03bd\u03c4\u03bf",
+        "number": 5,
+        "position": "CB",
+        "selection": null
+      },
+      {
+        "player_id": "15478",
+        "surname": "\u03a4\u03c3\u03b1\u03bf\u03c5\u03c3\u03af\u03b4\u03b7\u03c2",
+        "name": "\u039d\u03af\u03ba\u03bf\u03c2",
+        "number": 67,
+        "position": "LWB",
+        "selection": null
+      },
+      {
+        "player_id": "155",
+        "surname": "\u039c\u03b9\u03c7\u03ac\u03b9",
+        "name": "\u0395\u03bd\u03ad\u03b1",
+        "number": 19,
+        "position": "CB",
+        "selection": null
+      },
+      {
+        "player_id": "156",
+        "surname": "\u039a\u03c1\u03ad\u03c3\u03c0\u03bf",
+        "name": "\u0386\u03bd\u03c7\u03b5\u03bb",
+        "number": 15,
+        "position": "CB",
+        "selection": null
+      },
+      {
+        "player_id": "157",
+        "surname": "\u0393\u03b9\u03b1\u03bd\u03bd\u03bf\u03cd\u03bb\u03b7\u03c2",
+        "name": "\u0394\u03b7\u03bc\u03ae\u03c4\u03c1\u03b7\u03c2",
+        "number": 23,
+        "position": "CB",
+        "selection": null
+      },
+      {
+        "player_id": "158",
+        "surname": "\u039c\u03b9\u03c7\u03b1\u03b7\u03bb\u03af\u03b4\u03b7\u03c2",
+        "name": "\u0393\u03b9\u03ac\u03bd\u03bd\u03b7\u03c2",
+        "number": 49,
+        "position": "RM",
+        "selection": null
+      },
+      {
+        "player_id": "159",
+        "surname": "\u039a\u03b1\u03bd\u03c4\u03bf\u03c5\u03c1\u03b9",
+        "name": "\u039f\u03bc\u03b1\u03c1",
+        "number": 7,
+        "position": "RM",
+        "selection": null
+      },
+      {
+        "player_id": "160",
+        "surname": "\u039c\u03b1\u03bf\u03c5\u03c1\u03af\u03c3\u03b9\u03bf",
+        "name": "\u03a7\u03bf\u03c3\u03ad",
+        "number": 8,
+        "position": "AM",
+        "selection": null
+      },
+      {
+        "player_id": "161",
+        "surname": "\u03a0\u03ad\u03bb\u03ba\u03b1\u03c2",
+        "name": "\u0394\u03b7\u03bc\u03ae\u03c4\u03c1\u03b7\u03c2",
+        "number": 10,
+        "position": "SS",
+        "selection": null
+      },
+      {
+        "player_id": "162",
+        "surname": "\u039c\u03b5\u03bb\u03b9\u03cc\u03c0\u03bf\u03c5\u03bb\u03bf\u03c2",
+        "name": "\u0394\u03b7\u03bc\u03ae\u03c4\u03c1\u03b7\u03c2",
+        "number": 14,
+        "position": "AM",
+        "selection": null
+      },
+      {
+        "player_id": "163",
+        "surname": "\u0392\u03ad\u03c1\u03bd\u03bc\u03c0\u03bb\u03bf\u03c5\u03bc",
+        "name": "\u03a0\u03cc\u03bd\u03c4\u03bf\u03c5\u03c2",
+        "number": 97,
+        "position": "AM",
+        "selection": null
+      },
+      {
+        "player_id": "164",
+        "surname": "\u0392\u03b9\u03b5\u03b9\u03c1\u03af\u03bd\u03b9\u03b1",
+        "name": "\u0391\u03bd\u03c4\u03b5\u03bb\u03af\u03bd\u03bf",
+        "number": 20,
+        "position": "LW",
+        "selection": null
+      },
+      {
+        "player_id": "165",
+        "surname": "\u039c\u03c0\u03af\u03c3\u03b5\u03c3\u03b2\u03b1\u03c1",
+        "name": "\u039d\u03c4\u03b9\u03ad\u03b3\u03ba\u03bf",
+        "number": 21,
+        "position": "AM",
+        "selection": null
+      },
+      {
+        "player_id": "166",
+        "surname": "\u0395\u03c3\u03af\u03c4\u03b9",
+        "name": "\u0386\u03bd\u03c4\u03b5\u03c1\u03c3\u03bf\u03bd",
+        "number": 24,
+        "position": "DM",
+        "selection": null
+      },
+      {
+        "player_id": "167",
+        "surname": "\u039a\u03ac\u03c4\u03c3\u03b5",
+        "name": "\u0388\u03c1\u03b3\u03ba\u03bf\u03c5\u03c2",
+        "number": 26,
+        "position": "AM",
+        "selection": null
+      },
+      {
+        "player_id": "168",
+        "surname": "\u039c\u03af\u03c3\u03b9\u03c4\u03c2",
+        "name": "\u0393\u03b9\u03cc\u03b6\u03b9\u03c0",
+        "number": 31,
+        "position": "CM",
+        "selection": null
+      },
+      {
+        "player_id": "169",
+        "surname": "\u039d\u03c4\u03ac\u03b3\u03ba\u03bb\u03b1\u03c2",
+        "name": "\u0391\u03b3\u03ba\u03bf\u03cd\u03c3\u03c4\u03bf",
+        "number": 33,
+        "position": "AM",
+        "selection": null
+      },
+      {
+        "player_id": "170",
+        "surname": "\u0386\u03ba\u03c0\u03bf\u03bc\u03c0",
+        "name": "\u03a4\u03c3\u03bf\u03cd\u03bc\u03c0\u03b1",
+        "number": 47,
+        "position": "CF",
+        "selection": null
+      },
+      {
+        "player_id": "171",
+        "surname": "\u03a3\u03b2\u03b9\u03bd\u03c4\u03ad\u03c1\u03c3\u03ba\u03b9",
+        "name": "\u039a\u03ac\u03c1\u03bf\u03bb",
+        "number": 9,
+        "position": "AM",
+        "selection": null
+      },
+      {
+        "player_id": "172",
+        "surname": "\u039b\u03b7\u03bc\u03bd\u03b9\u03cc\u03c2",
+        "name": "\u0394\u03b7\u03bc\u03ae\u03c4\u03c1\u03b7\u03c2",
+        "number": 18,
+        "position": "SS",
+        "selection": null
+      },
+      {
+        "player_id": "173",
+        "surname": "\u0396\u03b1\u03bc\u03c0\u03ac",
+        "name": "\u039b\u03b5\u03bf\u03bd\u03ac\u03c1\u03bd\u03c4\u03bf",
+        "number": 98,
+        "position": "SS",
+        "selection": null
+      },
+      {
+        "player_id": "174",
+        "surname": "\u03a3\u03c4\u03bf\u03c7",
+        "name": "\u039c\u03af\u03c1\u03bf\u03c3\u03bb\u03b1\u03b2",
+        "number": 99,
+        "position": "SS",
+        "selection": null
+      }
+    ]
+  },
+  "colour": "#",
+  "basicPlayers": "#",
+  "replacementPlayers": "#",
+  "delaysA": 0,
+  "delaysB": 0,
+  "delaysExtraA": 0,
+  "delaysExtraB": 0,
+  "referee": {
+    "referee_id": "10000001",
+    "surname": "\u0398\u0395\u039f\u0394\u03a9\u03a1\u039f\u03a0\u039f\u03a5\u039b\u039f\u03a3",
+    "name": "\u03a3\u03a4\u0395\u03a1\u0393\u0399\u039f\u03a3",
+    "organization": "\u03a6\u039b\u03a9\u03a1\u0399\u039d\u0391\u03a3"
+  },
+  "refereeHelperA": {
+    "referee_id": "10000003",
+    "surname": "\u03a4\u039f\u03a1\u039f\u03a3\u0399\u0391\u0394\u0397\u03a3",
+    "name": "\u039a\u03a5\u03a1\u0399\u0391\u039a\u039f\u03a3",
+    "organization": "\u039c\u0391\u039a\u0395\u0394\u039f\u039d\u0399\u0391\u03a3"
+  },
+  "refereeHelperB": {
+    "referee_id": "10000002",
+    "surname": "\u03a6\u039f\u03a5\u03a3\u03a4\u0391\u039d\u0391\u03a3",
+    "name": "\u039a\u03a9\u039d\u03a3\u03a4\u0391\u039d\u03a4\u0399\u039d\u039f\u03a3",
+    "organization": "\u0398\u0395\u03a3\/\u039a\u0397\u03a3"
+  },
+  "refereeD": {
+    "referee_id": "10000008",
+    "surname": "\u03a7\u039f\u03a1\u039f\u0396\u039f\u0393\u039b\u039f\u03a5",
+    "name": "\u0392\u0391\u03a3\u0399\u039b\u0395\u0399\u039f\u03a3",
+    "organization": "\u0394\u03a1\u0391\u039c\u0391"
+  },
+  "LIVE": {},
+  "ActionsLive": []
+}

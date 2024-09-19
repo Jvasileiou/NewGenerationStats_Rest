@@ -1,0 +1,167 @@
+<resources>
+    <string name="app_name">RestNewGenStats</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <!--<string name="hello_blank_fragment">Hello blank fragment</string>-->
+    <string name="title_activity_event_list_display">EventListDisplay</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="newPlayerTitle">Add New Player</string>
+    <string name="editPlayerTitle">Edit Player</string>
+
+    <!-- String Arrays for Spinner -->
+    <string-array name="menu">
+        <item>Menu</item>
+        <item>Switch Sides</item>
+        <item>Create Pdf</item>
+        <item>Telephones</item>
+        <item>Stats</item>
+        <item>Events</item>
+    </string-array>
+    <!-- String Arrays for Spinner New Position -->
+    <string-array name="newPosition">
+        <item>Position</item>
+        <item>GK</item>
+        <item>CB</item>
+        <item>SW</item>
+        <item>LB</item>
+        <item>RB</item>
+        <item>LWB</item>
+        <item>RWB</item>
+        <item>CM</item>
+        <item>DB</item>
+        <item>AM</item>
+        <item>LM</item>
+        <item>RM</item>
+        <item>CF</item>
+        <item>SS</item>
+        <item>LW</item>
+        <item>RW</item>
+    </string-array>
+
+    <string-array name="game_times">
+        <item>ΠΡΙΝ ΕΝΑΡ</item>
+        <item>Α ΗΜΙΧ</item>
+        <item>ΗΜΙΧ</item>
+        <item>Β ΗΜΙΧ</item>
+        <item>ΤΕΛΟΣ ΚΑΝΟΝ</item>
+        <item>ΠΑΡΑΤ A ΗΜΙΧ</item>
+        <item>ΠΑΡΑΤ Β ΗΜΙΧ</item>
+        <item>ΠΕΝΑΛΤΙ</item>
+    </string-array>
+
+    <string-array name="event_strings">
+        <item>ΟΦΣΑΙΝΤ</item>
+        <item>ΚΟΡΝΕΡ ΑΡΙΣΤΕΡΗ ΠΛΕΥΡΑ</item>
+        <item>ΚΟΡΝΕΡ ΔΕΞΙΑ ΠΛΕΥΡΑ</item>
+        <item>ΠΡΟΩΘΗΜΕΝΗ ΠΑΣΑ</item>
+        <item>ΚΙΤΡΙΝΗ</item>
+        <item>2Η ΚΙΤΡΙΝΗ -> ΚΟΚΚΙΝΗ</item>
+        <item>ΚΟΚΚΙΝΗ</item>
+        <item>ΚΟΨΙΜΟ</item>
+        <item>ΑΠΟΤ ΔΙΕΙΣΔΥΣΗ</item>
+        <item>ΕΠΙΤ ΔΙΕΙΣΔΥΣΗ</item>
+        <item>ΦΑΟΥΛ ΤΡΑΒΗΓ ΦΑΝ</item>
+        <item>ΦΑΟΥΛ ΤΑΚΛΙΝ</item>
+        <item>ΦΑΟΥΛ ΧΕΡΙ</item>
+        <item>ΦΑΟΥΛ ΣΚΛΗΡΟ ΦΑΟΥΛ</item>
+        <item>ΦΑΟΥΛ ΣΩΜΑΤΙΚΗ ΕΠΑΦΗ</item>
+        <item>ΥΠΕΡ ΚΕΡΔΙΣΜΕΝΟ ΠΕΝΑΛΤΥ</item>
+        <item>ΥΠΕΡ</item>
+        <item>ΕΠΙΤ ΓΕΜ</item>
+        <item>ΑΠΟΤ ΓΕΜ</item>
+        <item>ΕΠΕΜΒΑΣΗ</item>
+        <item>ΑΣΙΣΤ</item>
+        <item>ΓΚΟΛ ΑΠΟ ΚΟΡΝΕΡ</item>
+        <item>ΓΚΟΛ ΑΠΟ ΚΟΡΝΕΡ + ΣΤΑΤΙΚΗ ΦΑΣΗ</item>
+        <item>ΓΚΟΛ ΑΠΟ ΦΑΟΥΛ</item>
+        <item>ΓΚΟΛ ΑΠΟ ΦΑΟΥΛ + ΣΤΑΤΙΚΗ ΦΑΣΗ</item>
+        <item>ΓΚΟΛ ΑΠΟ ΠΕΝΑΛΤΙ</item>
+        <item>ΓΚΟΛ ΑΠΟ ΠΕΝΑΛΤΙ + ΣΤΑΤΙΚΗ ΦΑΣΗ</item>
+        <item>ΓΚΟΛ ΑΠΟ ΚΕΦΑΛΙΑ</item>
+        <item>ΓΚΟΛ ΑΠΟ ΚΕΦΑΛΙΑ + ΣΤΑΤΙΚΗ ΦΑΣΗ</item>
+        <item>ΓΚΟΛ ΑΠΟ ΣΟΥΤ</item>
+        <item>ΓΚΟΛ ΑΠΟ ΣΟΥΤ + ΣΤΑΤΙΚΗ ΦΑΣΗ</item>
+        <item>ΚΛΕΨΙΜΟ</item>
+        <item>ΛΑΘΟΣ ΚΟΝΤΡΟΛ</item>
+        <item>ΛΑΘΟΣ ΚΑΚΗ ΠΑΣΑ</item>
+        <item>ΠΕΝΑΛΤΙ ΕΥΣΤΟΧΟ</item>
+        <item>ΑΠΟΚΡΟΥΣΗ</item>
+
+        <item>ΣΟΥΤ ΕΚΤΟΣ</item>
+        <item>ΚΕΦΑΛΙΑ ΕΚΤΟΣ</item>
+        <item>ΣΟΥΤ ΑΠΟ ΦΑΟΥΛ ΕΚΤΟΣ</item>
+        <item>ΧΑΜΕΝΟ ΠΕΝΑΛΤΙ ΕΚΤΟΣ</item>
+        <item>ΣΟΥΤ ΕΝΤΟΣ</item>
+        <item>ΚΕΦΑΛΙΑ ΕΝΤΟΣ</item>
+        <item>ΣΟΥΤ ΑΠΟ ΦΑΟΥΛ ΕΝΤΟΣ</item>
+        <item>ΧΑΜΕΝΟ ΠΕΝΑΛΤΙ ΕΝΤΟΣ</item>
+
+        <item>ΣΟΥΤ ΕΚΤΟΣ ΔΟΚΑΡΙ</item>
+        <item>ΚΕΦΑΛΙΑ ΕΚΤΟΣ ΔΟΚΑΡΙ</item>
+        <item>ΣΟΥΤ ΑΠΟ ΦΑΟΥΛ ΕΚΤΟΣ ΔΟΚΑΡΙ</item>
+        <item>ΧΑΜΕΝΟ ΠΕΝΑΛΤΙ ΕΚΤΟΣ ΔΟΚΑΡΙ</item>
+        <item>ΣΟΥΤ ΕΝΤΟΣ ΔΟΚΑΡΙ</item>
+        <item>ΚΕΦΑΛΙΑ ΕΝΤΟΣ ΔΟΚΑΡΙ</item>
+        <item>ΣΟΥΤ ΑΠΟ ΦΑΟΥΛ ΕΝΤΟΣ ΔΟΚΑΡΙ</item>
+        <item>ΧΑΜΕΝΟ ΠΕΝΑΛΤΙ ΕΝΤΟΣ ΔΟΚΑΡΙ</item>
+
+        <item>ΣΟΥΤ ΕΚΤΟΣ ΧΑΜΕΝΗ ΕΥΚΑΙΡΙΑ</item>
+        <item>ΚΕΦΑΛΙΑ ΕΚΤΟΣ ΧΑΜΕΝΗ ΕΥΚΑΙΡΙΑ</item>
+        <item>ΣΟΥΤ ΑΠΟ ΦΑΟΥΛ ΕΚΤΟΣ ΧΑΜΕΝΗ ΕΥΚΑΙΡΙΑ</item>
+        <item>ΧΑΜΕΝΟ ΠΕΝΑΛΤΙ ΕΚΤΟΣ ΧΑΜΕΝΗ ΕΥΚΑΙΡΙΑ</item>
+        <item>ΣΟΥΤ ΕΝΤΟΣ ΧΑΜΕΝΗ ΕΥΚΑΙΡΙΑ</item>
+        <item>ΚΕΦΑΛΙΑ ΕΝΤΟΣ ΧΑΜΕΝΗ ΕΥΚΑΙΡΙΑ</item>
+        <item>ΣΟΥΤ ΑΠΟ ΦΑΟΥΛ ΕΝΤΟΣ ΧΑΜΕΝΗ ΕΥΚΑΙΡΙΑ</item>
+        <item>ΧΑΜΕΝΟ ΠΕΝΑΛΤΙ ΕΝΤΟΣ ΧΑΜΕΝΗ ΕΥΚΑΙΡΙΑ</item>
+
+        <item>ΣΟΥΤ ΕΚΤΟΣ ΔΟΚΑΡΙ ΧΑΜΕΝΗ ΕΥΚΑΙΡΙΑ</item>
+        <item>ΚΕΦΑΛΙΑ ΕΚΤΟΣ ΔΟΚΑΡΙ ΧΑΜΕΝΗ ΕΥΚΑΙΡΙΑ</item>
+        <item>ΣΟΥΤ ΑΠΟ ΦΑΟΥΛ ΕΚΤΟΣ ΔΟΚΑΡΙ ΧΑΜΕΝΗ ΕΥΚΑΙΡΙΑ</item>
+        <item>ΧΑΜΕΝΟ ΠΕΝΑΛΤΙ ΕΚΤΟΣ ΔΟΚΑΡΙ ΧΑΜΕΝΗ ΕΥΚΑΙΡΙΑ</item>
+        <item>ΣΟΥΤ ΕΝΤΟΣ ΔΟΚΑΡΙ ΧΑΜΕΝΗ ΕΥΚΑΙΡΙΑ</item>
+        <item>ΚΕΦΑΛΙΑ ΕΝΤΟΣ ΔΟΚΑΡΙ ΧΑΜΕΝΗ ΕΥΚΑΙΡΙΑ</item>
+        <item>ΣΟΥΤ ΑΠΟ ΦΑΟΥΛ ΕΝΤΟΣ ΔΟΚΑΡΙ ΧΑΜΕΝΗ ΕΥΚΑΙΡΙΑ</item>
+        <item>ΧΑΜΕΝΟ ΠΕΝΑΛΤΙ ΕΝΤΟΣ ΔΟΚΑΡΙ ΧΑΜΕΝΗ ΕΥΚΑΙΡΙΑ</item>
+    </string-array>
+
+
+    <string-array name="stats_strings">
+        <item>forwardingPass</item>
+        <item>yellowCard</item>
+        <item>redCard</item>
+        <item>kopsimo</item>
+        <item>dieisdusiOut</item>
+        <item>dieisdusiIn</item>
+        <item>faoulKata</item>
+        <item>faoulYper</item>
+        <item>gemismaIn</item>
+        <item>gemismaOut</item>
+        <item>epemvasi</item>
+        <item>assist</item>
+        <item>apoKornerIn</item>
+        <item>apoFaoulIn</item>
+        <item>penalty</item>
+        <item>kefaliaIn</item>
+        <item>shootIn</item>
+        <item>klepsimo</item>
+        <item>lathos</item>
+        <item>penaltyScore</item>
+        <item>apokrousi</item>
+        <item>shootOut</item>
+        <item>kefaliaOut</item>
+        <item>apoFaoulOut</item>
+        <item>xamenoPenaltyOut</item>
+        <item>shootIn</item>
+        <item>kefaliaIn</item>
+        <item>apoFaoulIn</item>
+        <item>xamenoPenaltyIn</item>
+        <item>offside</item>
+        <item>cornerLeft</item>
+        <item>cornerRight</item>
+        <item>xameniEukairia</item>
+        <item>dokari</item>
+        <item> </item>
+    </string-array>
+
+</resources>

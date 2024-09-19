@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/textView_TroposGoal"
+        android:layout_width="130dp"
+        android:layout_height="20dp"
+        android:gravity="center"
+        android:text="Τροπος Goal?"
+        android:textAllCaps="true"
+        android:textColor="#0d0d0d"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewGoal_Sout"
+        android:layout_width="130dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="#afafab"
+        android:gravity="center"
+        android:text="Σουτ"
+        android:textAllCaps="true"
+        android:textColor="#0d0d0d"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textViewGoal_Kefalia"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewGoal_Kefalia"
+        android:layout_width="130dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:background="#afafab"
+        android:gravity="center"
+        android:text="Κεφαλια"
+        android:textAllCaps="true"
+        android:textColor="#0d0d0d"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textViewGoal_Penalty"
+        app:layout_constraintEnd_toEndOf="@+id/textViewGoal_Sout"
+        app:layout_constraintTop_toBottomOf="@+id/textViewGoal_Sout" />
+
+    <TextView
+        android:id="@+id/textViewGoal_Penalty"
+        android:layout_width="130dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:background="#afafab"
+        android:gravity="center"
+        android:text="Πεναλτι"
+        android:textAllCaps="true"
+        android:textColor="#0d0d0d"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textViewGoal_ApeFaoul"
+        app:layout_constraintEnd_toEndOf="@+id/textViewGoal_Kefalia"
+        app:layout_constraintTop_toBottomOf="@+id/textViewGoal_Kefalia" />
+
+    <TextView
+        android:id="@+id/textViewGoal_ApeFaoul"
+        android:layout_width="130dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:background="#afafab"
+        android:gravity="center"
+        android:text="Απευθειας Φαουλ"
+        android:textAllCaps="true"
+        android:textColor="#0d0d0d"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textViewGoal_ApoKorner"
+        app:layout_constraintEnd_toEndOf="@+id/textViewGoal_Penalty"
+        app:layout_constraintTop_toBottomOf="@+id/textViewGoal_Penalty" />
+
+    <TextView
+        android:id="@+id/textViewGoal_ApoKorner"
+        android:layout_width="130dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#afafab"
+        android:gravity="center"
+        android:text="Απο Κορνερ"
+        android:textAllCaps="true"
+        android:textColor="#0d0d0d"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textViewGoal_ApeFaoul"
+        app:layout_constraintTop_toBottomOf="@+id/textViewGoal_ApeFaoul" />
+
+    <TextView
+        android:id="@+id/textView_EscOfGoal"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="#afafab"
+        android:gravity="center"
+        android:text="Esc"
+        android:textAllCaps="true"
+        android:textColor="#0d0d0d"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_Autogoal"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="#b4ad24"
+        android:gravity="center"
+        android:text="Αυτογκολ"
+        android:textAllCaps="true"
+        android:textColor="#0d0d0d"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_YesOfAssistGoal"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="16dp"
+        android:background="#afafab"
+        android:gravity="center"
+        android:text="Ok"
+        android:textAllCaps="true"
+        android:textColor="#0d0d0d"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView_EscOfGoal"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_Asist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#b4ad24"
+        android:gravity="center"
+        android:paddingHorizontal="48dp"
+        android:paddingBottom="32dp"
+        android:text="ΑΣΙΣΤ ?"
+        android:textAllCaps="true"
+        android:textColor="#0d0d0d"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_asistBonus"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="ΕΠΕΛΕΞΕ ΠΑΙΚΤΗ"
+        android:textAlignment="center"
+        android:textColor="#0d0d0d"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView_Asist"
+        app:layout_constraintEnd_toEndOf="@+id/textView_Asist"
+        app:layout_constraintStart_toStartOf="@+id/textView_Asist" />
+
+    <android.support.v7.widget.SwitchCompat
+        android:id="@+id/switchApoStatikiFasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:text="ΣΤΑΤΙΚΗ ΦΑΣΗ"
+        android:textSize="16dp"
+        android:theme="@style/ThemeOverlay.MySwitchCompat"
+        app:layout_constraintEnd_toStartOf="@+id/textViewGoal_Sout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_TroposGoal" />
+
+    <android.support.constraint.Group
+        android:id="@+id/group_hideForAssist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="textViewGoal_ApeFaoul,textView_TroposGoal,textViewGoal_Sout,textViewGoal_ApoKorner,textView_Autogoal,switchApoStatikiFasi,textViewGoal_Kefalia,textViewGoal_Penalty" />
+
+    <android.support.constraint.Group
+        android:id="@+id/group_showForAssit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="textView_asistBonus,textView_YesOfAssistGoal,textView_Asist" />
+
+</android.support.constraint.ConstraintLayout>

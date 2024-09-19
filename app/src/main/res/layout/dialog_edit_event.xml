@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="500dp">
+
+
+    <Spinner
+        android:id="@+id/spinner_event_period"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/spinner_event_player"
+        app:layout_constraintEnd_toEndOf="@+id/fragment_container"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/spinner_event_player"
+        app:layout_constraintTop_toTopOf="@+id/spinner_event_player" />
+
+    <Spinner
+        android:id="@+id/spinner_event_player"
+        android:layout_width="75dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/spinner_event_period"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_change_team"
+        app:layout_constraintTop_toTopOf="@+id/textView_event_team" />
+
+    <Button
+        android:id="@+id/button_event_esc"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:text="Cancel"
+        app:layout_constraintStart_toStartOf="@+id/fragment_container"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_container" />
+
+    <Button
+        android:id="@+id/button_event_confirm"
+        style="@style/ConfirmButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button_event_esc"
+        app:layout_constraintEnd_toEndOf="@+id/fragment_container" />
+
+    <Spinner
+        android:id="@+id/spinner_event_string"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/button_min_decrease"
+        app:layout_constraintEnd_toEndOf="@+id/fragment_container"
+        app:layout_constraintStart_toEndOf="@+id/button_min_increase"
+        app:layout_constraintTop_toTopOf="@+id/button_min_increase" />
+
+    <TextView
+        android:id="@+id/textView_event_min"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="@+id/button_min_decrease"
+        app:layout_constraintStart_toStartOf="@+id/fragment_container"
+        app:layout_constraintTop_toTopOf="@+id/button_min_increase" />
+
+    <Button
+        android:id="@+id/button_min_increase"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="+"
+        app:layout_constraintStart_toEndOf="@+id/textView_event_min"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_min_decrease"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="-"
+        app:layout_constraintEnd_toEndOf="@+id/button_min_increase"
+        app:layout_constraintStart_toStartOf="@+id/button_min_increase"
+        app:layout_constraintTop_toBottomOf="@+id/button_min_increase" />
+
+    <TextView
+        android:id="@+id/textView_event_team"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="TEAM NAME"
+        android:textAlignment="gravity"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/button_change_team"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/fragment_container"
+        app:layout_constraintTop_toBottomOf="@+id/button_min_decrease" />
+
+    <Button
+        android:id="@+id/button_change_team"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="CHANGE"
+        app:layout_constraintBottom_toBottomOf="@+id/textView_event_team"
+        app:layout_constraintEnd_toStartOf="@+id/spinner_event_player"
+        app:layout_constraintStart_toEndOf="@+id/textView_event_team"
+        app:layout_constraintTop_toTopOf="@+id/textView_event_team" />
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="470dp"
+        android:layout_height="260dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_change_team">
+
+    </FrameLayout>
+</android.support.constraint.ConstraintLayout>

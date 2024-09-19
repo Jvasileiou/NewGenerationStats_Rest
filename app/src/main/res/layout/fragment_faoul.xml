@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <TextView
+        android:id="@+id/textView_EpitiximenoGemisma"
+        android:layout_width="130dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:text="Τροπος"
+        android:textAllCaps="true"
+        android:textColor="#0d0d0d"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_EscOfFaoul"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="8dp"
+        android:background="#afafab"
+        android:gravity="center"
+        android:text="Esc"
+        android:textAllCaps="true"
+        android:textColor="#0d0d0d"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_OkOfFaoul"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        android:background="#afafab"
+        android:gravity="center"
+        android:text="Ok"
+        android:textAllCaps="true"
+        android:textColor="#0d0d0d"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_PoiosToKerdise"
+        android:layout_width="160dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#b4ad24"
+        android:gravity="center"
+        android:text="Ποιος το κερδισε?"
+        android:textAllCaps="true"
+        android:textColor="#0d0d0d"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView_OkOfFaoul"
+        app:layout_constraintStart_toEndOf="@+id/textView_EscOfFaoul"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <CheckBox
+        android:id="@+id/checkBox_TravigmaFanelas"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:text="ΤΡΑΒΗΓΜΑ ΦΑΝΕΛΑΣ"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox_Xeri"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox_Taklin" />
+
+    <CheckBox
+        android:id="@+id/checkBox_Taklin"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:text="ΤΑΚΛΙΝ"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox_TravigmaFanelas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox_SomatikiEpafi" />
+
+    <CheckBox
+        android:id="@+id/checkBox_Xeri"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:text="ΧΕΡΙ"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox_SkliroFaoul"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox_TravigmaFanelas" />
+
+    <CheckBox
+        android:id="@+id/checkBox_SomatikiEpafi"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:text="ΣΩΜΑΤΙΚΗ ΕΠΑΦΗ"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox_Taklin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_EpitiximenoGemisma" />
+
+    <CheckBox
+        android:id="@+id/checkBox_SkliroFaoul"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:text="ΣΚΛΗΡΟ ΦΑΟΥΛ"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox_Xeri" />
+
+    <android.support.v7.widget.SwitchCompat
+        android:id="@+id/switch_KerdismenoPenalty"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:checked="false"
+        android:text="ΚΕΡΔΙΣΜΕΝΟ\nΠΕΝΑΛΝΤΙ"
+        android:theme="@style/ThemeOverlay.MySwitchCompat"
+        app:layout_constraintBottom_toTopOf="@+id/textView_PoiosToKerdise"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.constraint.Group
+        android:id="@+id/group_hideForWon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="checkBox_TravigmaFanelas,checkBox_SomatikiEpafi,checkBox_Xeri,checkBox_Taklin,checkBox_SkliroFaoul" />
+
+    <android.support.constraint.Group
+        android:id="@+id/group_showForWon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="textView_PoiosToKerdise,textView_OkOfFaoul" />
+
+</android.support.constraint.ConstraintLayout>

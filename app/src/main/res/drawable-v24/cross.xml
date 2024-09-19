@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/blackLineOne">
+        <shape android:shape="line">
+            <stroke android:width="10dp" android:color="@android:color/black" />
+        </shape>
+    </item>
+
+    <item android:id="@+id/blackLineTwo">
+        <rotate
+            android:fromDegrees="90"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:toDegrees="-90">
+            <shape android:shape="line">
+                <stroke android:width="10dp" android:color="@android:color/black" />
+            </shape>
+        </rotate>
+    </item>
+    <item android:start="5dp" android:end="5dp">
+        <shape android:shape="line">
+            <stroke android:width="2.5dp" android:color="#E6E6E6" />
+        </shape>
+    </item>
+
+    <item android:start="5dp" android:end="5dp">
+        <rotate
+            android:fromDegrees="90"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:toDegrees="-90">
+            <shape android:shape="line">
+                <stroke android:width="2.5dp" android:color="#E6E6E6" />
+            </shape>
+        </rotate>
+    </item>
+</layer-list>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#040404"
+    tools:context=".Activities.CountStatsActivity">
+
+    <ImageView
+        android:id="@+id/image_backOfKeyInput"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:background="#54686868"
+        app:layout_constraintBottom_toBottomOf="@+id/editText_KeyInput"
+        app:layout_constraintEnd_toEndOf="@+id/editText_KeyInput"
+        app:layout_constraintStart_toStartOf="@+id/editText_KeyInput"
+        app:layout_constraintTop_toTopOf="@+id/editText_KeyInput" />
+
+    <ImageView
+        android:id="@+id/imageView_FirstYellowLine"
+        android:layout_width="0dp"
+        android:layout_height="22dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#FED03D"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_Horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline_FirstHor" />
+
+    <ImageView
+        android:id="@+id/imageView_SecondYellowLine"
+        android:layout_width="1279dp"
+        android:layout_height="160dp"
+        android:background="#FED03D"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline_Horizontal" />
+
+    <ImageView
+        android:id="@+id/img_box"
+        android:layout_width="520dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#54686868"
+        app:layout_constraintBottom_toTopOf="@+id/button_StartFriendlyGame"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline_FirstHor"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView_InsertKey"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="#54686868"
+        android:gravity="center"
+        android:text="ΕΙΣΑΓΩΓΗ ΚΛΕΙΔΙΟΥ"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView_FirstYellowLine"
+        app:layout_constraintEnd_toEndOf="@+id/img_box"
+        app:layout_constraintStart_toStartOf="@+id/img_box"
+        app:layout_constraintTop_toTopOf="@+id/img_box" />
+
+    <EditText
+        android:id="@+id/editText_KeyInput"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="KEY MATCH HERE..."
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_Horizontal"
+        app:layout_constraintEnd_toEndOf="@+id/img_box"
+        app:layout_constraintStart_toStartOf="@+id/img_box"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_FirstYellowLine"></EditText>
+
+    <Button
+        android:id="@+id/button_StartNewGame"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="#B98B8B8B"
+        android:text="Start New Game   "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#fcfcfc"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView_SecondYellowLine"
+        app:layout_constraintEnd_toEndOf="@+id/img_box"
+        app:layout_constraintStart_toStartOf="@+id/img_box"
+        app:layout_constraintTop_toTopOf="@+id/guideline_Horizontal" />
+
+    <Button
+        android:id="@+id/button_Continue"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="#54686868"
+        android:text="Continue"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#fcfcfc"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/img_box"
+        app:layout_constraintEnd_toEndOf="@+id/img_box"
+        app:layout_constraintStart_toStartOf="@+id/img_box"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_SecondYellowLine"></Button>
+
+    <ImageView
+        android:id="@+id/imageView_Logo"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_FirstHor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ngs_logo" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline_Horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.55" />
+
+    <ImageView
+        android:id="@+id/image_ArrowToStart"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:rotation="90"
+        app:layout_constraintBottom_toBottomOf="@+id/button_StartNewGame"
+        app:layout_constraintEnd_toEndOf="@+id/button_StartNewGame"
+        app:layout_constraintTop_toTopOf="@+id/button_StartNewGame"
+        app:srcCompat="@android:drawable/arrow_up_float" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline_FirstHor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.18" />
+
+    <Button
+        android:id="@+id/button_StartFriendlyGame"
+        android:layout_width="200dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="Start Frienldy Game"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/button_StartNewGame"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/editText_KeyInput" />
+
+</android.support.constraint.ConstraintLayout>
