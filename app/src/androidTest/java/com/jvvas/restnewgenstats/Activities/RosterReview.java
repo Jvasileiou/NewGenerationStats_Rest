@@ -2,7 +2,6 @@
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.support.constraint.Group;
 import android.support.v4.app.Fragment;
@@ -17,7 +16,6 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.jvvas.restnewgenstats.Api.RequestsOfLoginActivity;
 import com.jvvas.restnewgenstats.Api.RequestsOfRosterReview;
 import com.jvvas.restnewgenstats.Dialog.PlayerInfoDialog;
 import com.jvvas.restnewgenstats.Fragments.GameDetails;
@@ -45,7 +43,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
      private Retrofit retrofit;
      private RequestsOfRosterReview requests;
 
-     private FragmentManager fragmentManager = getSupportFragmentManager();;
+     private FragmentManager fragmentManager = getSupportFragmentManager();
 
     private GameDetails matchDetails ;
     private Referees referees ;
