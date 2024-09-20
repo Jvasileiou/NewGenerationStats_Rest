@@ -17,11 +17,6 @@ import com.jvvas.restnewgenstats.Adapters.EventAdapter;
 import com.jvvas.restnewgenstats.Objects.DataLiveActions;
 import com.jvvas.restnewgenstats.R;
 
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Comparator;
-
-
 public class EventDisplayDialog  extends DialogFragment {
 
     private Button back, edit, insert;

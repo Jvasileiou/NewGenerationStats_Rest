@@ -1,15 +1,10 @@
 package com.jvvas.restnewgenstats.Api;
 
 import com.jvvas.restnewgenstats.JavaDataTransferObjects.MatchDTO;
-import com.jvvas.restnewgenstats.JavaDataTransferObjects.TeamDTO;
 
 import retrofit2.Call;
 import retrofit2.http.Body;
-import retrofit2.http.PATCH;
 import retrofit2.http.POST;
-import retrofit2.http.PUT;
-import retrofit2.http.Path;
-import retrofit2.http.Query;
 
 public interface RequestsOfRosterReview {
 

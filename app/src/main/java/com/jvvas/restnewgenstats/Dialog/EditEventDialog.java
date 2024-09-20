@@ -2,7 +2,6 @@ package com.jvvas.restnewgenstats.Dialog;
 
 
 import android.os.Bundle;
-import android.provider.ContactsContract;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.DialogFragment;
@@ -25,8 +24,6 @@ import com.jvvas.restnewgenstats.R;
 
 import java.util.Arrays;
 import java.util.Objects;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 public class EditEventDialog extends DialogFragment implements AdapterView.OnItemSelectedListener {
 
@@ -292,7 +289,7 @@ public class EditEventDialog extends DialogFragment implements AdapterView.OnIte
     private void updateStatsForNewEvent(DataLiveActions newEvent){
         if (eventContainsCards())
             checkCards();
-        if (!newEvent.getStat().equals(""))
+        if (!newEvent.getStat().isEmpty())
             rootActivity.changeStat(newEvent.getStat(),newEvent.isTeamA(),true);
         if (newEvent.getEvent().contains("ΓΚΟΛ")) {
             if (newEvent.getEvent().contains("ΑΥΤΟΓΚΟΛ"))
@@ -337,8 +334,7 @@ public class EditEventDialog extends DialogFragment implements AdapterView.OnIte
     //Implementing the spinner
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-        if (event == null && position < 3) spinnerPlayer.setEnabled(false);
-        else spinnerPlayer.setEnabled(true);
+        spinnerPlayer.setEnabled(event != null || position >= 3);
     }
 
     @Override
