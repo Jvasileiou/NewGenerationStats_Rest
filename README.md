@@ -11,10 +11,28 @@
 
 ## Technologies Used
 - **Programming Languages:** Java
-- **Frameworks & Tools:** Android SDK, Retrofit library for API integration, SQLite for local data storage
-- **PDF Libraries:**
-  - `android-pdf-viewer` (version 3.2.0-beta.1)
-  - `itext7-core` (version 7.1.6)
+- **Frameworks & Libraries:**
+  - Android SDK
+  - Retrofit library for API integration
+  - Gson for JSON serialization/deserialization
+  - DroidNet for network connectivity management
+  - iText PDF library for PDF creation and manipulation
+  - Android PDF Viewer for displaying PDF files
+
+- **Layout and Design:**
+  - AppCompat for backward compatibility
+  - Constraint Layout for flexible UI design
+
+- **Testing:**
+  - JUnit for unit testing
+  - Espresso for UI testing
+
+- **Database:**
+  - SQLite for local data storage
+
+- **Additional Libraries:**
+  - OkHttp for HTTP requests and logging
+
 
 ## Running the App
 - **Recommended Device:** Use an Android tablet with Android 13 for optimal performance, as the app includes a PDF creator library.
