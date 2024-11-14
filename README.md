@@ -40,20 +40,20 @@
 
 ## Screenshots
 <p align="center">
-  <img src="screenshots/ngstats1.JPG" alt="Image 1" width="120">
-  <img src="screenshots/ngstats2.JPG" alt="Image 2" width="120">
-  <img src="screenshots/ngstats3.JPG" alt="Image 3" width="120">
-  <img src="screenshots/ngstats4.JPG" alt="Image 4" width="120">
-  <img src="screenshots/ngstats5.JPG" alt="Image 5" width="120">
-  <img src="screenshots/ngstats6.JPG" alt="Image 6" width="120">
+  <img src="screenshots/ngstats1.JPG" alt="Image 1" width="400">
+  <img src="screenshots/ngstats2.JPG" alt="Image 2" width="400">
+  <img src="screenshots/ngstats3.JPG" alt="Image 3" width="400">
+  <img src="screenshots/ngstats4.JPG" alt="Image 4" width="400">
+  <img src="screenshots/ngstats5.JPG" alt="Image 5" width="400">
+  <img src="screenshots/ngstats6.JPG" alt="Image 6" width="400">
 </p>
 <p align="center">
-  <img src="screenshots/ngstats7.JPG" alt="Image 1" width="120">
-  <img src="screenshots/ngstats8.JPG" alt="Image 2" width="120">
-  <img src="screenshots/ngstats9.JPG" alt="Image 3" width="120">
-  <img src="screenshots/ngstats9a.JPG" alt="Image 4" width="120">
-  <img src="screenshots/ngstats10.JPG" alt="Image 5" width="120">
-  <img src="screenshots/ngstats11.JPG" alt="Image 6" width="120">
+  <img src="screenshots/ngstats7.JPG" alt="Image 1" width="400">
+  <img src="screenshots/ngstats8.JPG" alt="Image 2" width="400">
+  <img src="screenshots/ngstats9.JPG" alt="Image 3" width="400">
+  <img src="screenshots/ngstats9a.JPG" alt="Image 4" width="400">
+  <img src="screenshots/ngstats10.JPG" alt="Image 5" width="400">
+  <img src="screenshots/ngstats11.JPG" alt="Image 6" width="400">
 </p>
 
 
