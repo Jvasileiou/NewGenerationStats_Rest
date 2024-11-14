@@ -39,11 +39,31 @@
 - **Installation:** To run the app, simply install it on your Android tablet.
 
 ## Screenshots
-A folder with screenshots demonstrating the app's features is available in the [GitHub repository](link-to-your-screenshots).
+<p align="center">
+  <img src="screenshots/ngstats1.JPG" alt="Image 1" width="120">
+  <img src="screenshots/ngstats2.JPG" alt="Image 2" width="120">
+  <img src="screenshots/ngstats3.JPG" alt="Image 3" width="120">
+  <img src="screenshots/ngstats4.JPG" alt="Image 4" width="120">
+  <img src="screenshots/ngstats5.JPG" alt="Image 5" width="120">
+  <img src="screenshots/ngstats6.JPG" alt="Image 6" width="120">
+</p>
+<p align="center">
+  <img src="screenshots/ngstats7.JPG" alt="Image 1" width="120">
+  <img src="screenshots/ngstats8.JPG" alt="Image 2" width="120">
+  <img src="screenshots/ngstats9.JPG" alt="Image 3" width="120">
+  <img src="screenshots/ngstats9a.JPG" alt="Image 4" width="120">
+  <img src="screenshots/ngstats10.JPG" alt="Image 5" width="120">
+  <img src="screenshots/ngstats11.JPG" alt="Image 6" width="120">
+</p>
+
 
 ## Coordinator and Acknowledgments
 - **Ioannis Vasileiou** (Lead Developer and Coordinator)  
 - **Spyros Mantelos** (Assistant Coordinator)
 
 ## Additional Information
-This project has two versions: one utilizing RESTful services and another connected to Firebase. This README focuses on the version with RESTful services.
+This project has two versions:
+1. One utilizing **RESTful services** and
+2. another connected to **Firebase**. 
+
+This README focuses on the version with RESTful services.
