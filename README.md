@@ -58,8 +58,8 @@
 
 
 ## Coordinator and Acknowledgments
-- **Ioannis Vasileiou** (Lead Developer and Coordinator)  
-- **Spyros Mantelos** (Assistant Coordinator)
+- **Ioannis Vasileiou** (Lead Developer)  
+- **Spyros Mantelos** (Developer)
 
 ## Additional Information
 This project has two versions:
