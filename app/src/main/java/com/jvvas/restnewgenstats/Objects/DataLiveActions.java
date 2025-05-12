@@ -70,7 +70,7 @@ public class DataLiveActions implements Serializable {
         this.timePeriod = info[info.length-2].trim();
         this.isDefault = Boolean.parseBoolean(info[info.length-1].trim());
         // Raw
-        if (info[1].trim().equals("")){
+        if (info[1].trim().isEmpty()){
             isRaw = true;
             return;
         }

@@ -98,7 +98,7 @@ public class LoginActivity extends AppCompatActivity {
 
         requests = retrofit.create(RequestsOfLoginActivity.class);
 
-        if (editTextKeyMatch.getText().toString().equals(""))
+        if (editTextKeyMatch.getText().toString().isEmpty())
             showToast("Το πεδίο είναι κενό");
         else {
             progressBar.setVisibility(View.VISIBLE);

@@ -13,9 +13,6 @@ import android.widget.TextView;
 import com.jvvas.restnewgenstats.JavaDataTransferObjects.LiveDTO;
 import com.jvvas.restnewgenstats.R;
 
-import java.util.Objects;
-
-
 public class StatsDialog extends DialogFragment {
 
     //Boolean to see if we need to invert teams

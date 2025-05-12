@@ -170,10 +170,10 @@ public class PlayerInfoDialog extends DialogFragment implements AdapterView.OnIt
     //Check that we have info in all editTexts
     private boolean checkNoEmptyField()
     {
-        return !(newPositionString.equals("Position") || newName.getText().toString().equals("") ||
-                newSurname.getText().toString().equals("") ||
-                newNumber.getText().toString().equals("") ||
-                newAM.getText().toString().equals(""));
+        return !(newPositionString.equals("Position") || newName.getText().toString().isEmpty() ||
+                newSurname.getText().toString().isEmpty() ||
+                newNumber.getText().toString().isEmpty() ||
+                newAM.getText().toString().isEmpty());
     }
 
 

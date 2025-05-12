@@ -6,7 +6,6 @@ import android.os.Build;
 import android.os.Environment;
 
 import com.itextpdf.io.image.ImageDataFactory;
-import com.itextpdf.kernel.colors.Color;
 import com.itextpdf.kernel.colors.ColorConstants;
 import com.itextpdf.kernel.font.PdfFont;
 import com.itextpdf.kernel.font.PdfFontFactory;
@@ -27,11 +26,7 @@ import com.itextpdf.layout.property.UnitValue;
 import com.itextpdf.layout.property.VerticalAlignment;
 import com.itextpdf.layout.renderer.CellRenderer;
 import com.itextpdf.layout.renderer.DrawContext;
-import com.jvvas.restnewgenstats.Activities.CountStatsActivity;
 import com.jvvas.restnewgenstats.Adapters.BasicPlayerAdapter;
-import com.jvvas.restnewgenstats.Objects.DataLiveActions;
-import com.jvvas.restnewgenstats.Objects.Player;
-import com.jvvas.restnewgenstats.Objects.Team;
 
 import java.io.File;
 import java.io.IOException;

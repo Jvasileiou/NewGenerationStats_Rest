@@ -4,7 +4,6 @@ import android.Manifest;
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.DialogInterface;
-import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Color;
 import android.graphics.drawable.GradientDrawable;
@@ -42,9 +41,7 @@ import android.widget.Toast;
 
 import com.droidnet.DroidListener;
 import com.droidnet.DroidNet;
-import com.google.gson.Gson;
 import com.jvvas.restnewgenstats.Api.RequestsOfCountStatsActivity;
-import com.jvvas.restnewgenstats.Api.RequestsOfRosterReview;
 import com.jvvas.restnewgenstats.Dialog.AreYouSureDialog;
 import com.jvvas.restnewgenstats.Dialog.ConfTeamDialog;
 import com.jvvas.restnewgenstats.Dialog.StatsDialog;
@@ -63,14 +60,11 @@ import com.jvvas.restnewgenstats.JavaDataTransferObjects.MatchDTO;
 import com.jvvas.restnewgenstats.JavaDataTransferObjects.PlayerDTO;
 import com.jvvas.restnewgenstats.JavaDataTransferObjects.TeamDTO;
 import com.jvvas.restnewgenstats.Objects.DataLiveActions;
-import com.jvvas.restnewgenstats.Objects.Live;
 import com.jvvas.restnewgenstats.Objects.LiveUpdater;
 import com.jvvas.restnewgenstats.Objects.Player;
 import com.jvvas.restnewgenstats.Objects.Team;
 import com.jvvas.restnewgenstats.Objects.TemplatePdf;
 import com.jvvas.restnewgenstats.R;
-
-import org.json.JSONObject;
 
 import java.io.IOException;
 import java.util.ArrayList;
