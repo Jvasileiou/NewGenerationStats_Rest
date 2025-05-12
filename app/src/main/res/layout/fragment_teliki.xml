@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
@@ -245,7 +245,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <android.support.v7.widget.SwitchCompat
+    <androidx.appcompat.widget.SwitchCompat
         android:id="@+id/switchXameniEukairia"
         android:layout_width="wrap_content"
         android:layout_height="52dp"
@@ -259,7 +259,7 @@
         app:layout_constraintStart_toEndOf="@+id/textView_SoutEntos"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <android.support.v7.widget.SwitchCompat
+    <androidx.appcompat.widget.SwitchCompat
         android:id="@+id/switchDokari"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -273,17 +273,15 @@
         app:layout_constraintStart_toEndOf="@+id/textView_KefaliaEntos"
         app:layout_constraintTop_toBottomOf="@+id/switchXameniEukairia" />
 
-    <android.support.constraint.Group
-        android:id="@+id/group_hideForSave"
+    <androidx.constraintlayout.widget.Group        android:id="@+id/group_hideForSave"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:constraint_referenced_ids="textView_KefaliaEktos,switchDokari,textView_XamenoPenaltyEktos,textView_KefaliaEntos,textView_SoutEktos,textView_EpitiximenoGemisma,textView_ApoFaoulEntos,switchXameniEukairia,textView_EktosEstias,textView_ApoFaoulEktos,textView_XamenoPenaltyEntos,textView_SoutEntos" />
 
-    <android.support.constraint.Group
-        android:id="@+id/group_showForSave"
+    <androidx.constraintlayout.widget.Group        android:id="@+id/group_showForSave"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:constraint_referenced_ids="textView_OkOfTeliki,textView_Apokrousi" />
 
 
-</android.support.constraint.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,6 +1,7 @@
 package com.jvvas.restnewgenstats.Objects;
 
 import android.content.Context;
+import android.media.MediaScannerConnection;
 import android.os.Build;
 import android.os.Environment;
 
@@ -3865,6 +3866,14 @@ public class TemplatePdf {
 
     public void closeDocument() {
         document.close();
+
+        // Ενημέρωση Media Scanner για να εμφανιστεί το PDF στον File Manager
+        MediaScannerConnection.scanFile(
+                context,
+                new String[]{file.getAbsolutePath()},
+                new String[]{"application/pdf"},
+                null
+        );
     }
 
 //    public void viewPDF(){

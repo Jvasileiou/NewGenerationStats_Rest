@@ -4,10 +4,12 @@ import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.support.constraint.Group;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v7.app.AppCompatActivity;
+import androidx.constraintlayout.widget.Group;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentTransaction;
+
 import android.util.Log;
 import android.view.View;
 import android.view.ViewTreeObserver;
@@ -345,7 +347,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
         matchDetails = new GameDetails();
 
 //        FragmentManager fragmentManager = getSupportFragmentManager();
-        final android.support.v4.app.FragmentTransaction
+        final FragmentTransaction
                 fragmentTransaction = fragmentManager.beginTransaction();
         fragmentTransaction.replace(R.id.forFrag, matchDetails);
         fragmentTransaction.addToBackStack(null);
@@ -428,7 +430,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
         referees = new Referees();
 
 //        FragmentManager fragmentManager = getSupportFragmentManager();
-        final android.support.v4.app.FragmentTransaction
+        final FragmentTransaction
                 fragmentTransaction = fragmentManager.beginTransaction();
         fragmentTransaction.replace(R.id.forFrag, referees);
         fragmentTransaction.commit();
@@ -457,7 +459,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
         if (toRemove!=null)
         {
 //            FragmentManager fragmentManager = getSupportFragmentManager();
-            final android.support.v4.app.FragmentTransaction
+            final FragmentTransaction
                     fragmentTransaction = fragmentManager.beginTransaction();
             fragmentTransaction.remove(toRemove);
             fragmentTransaction.commit();

@@ -3,11 +3,13 @@ package com.jvvas.restnewgenstats.Activities;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.constraint.Group;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
-import android.support.v7.app.AppCompatActivity;
+import androidx.constraintlayout.widget.Group;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.DialogFragment;
+
 import android.util.Log;
 import android.view.View;
 import android.view.ViewTreeObserver;
@@ -343,7 +345,7 @@ public class RosterReview extends AppCompatActivity {
     // Need to remove these when displaying the list again
     private void removeFragment(Fragment toRemove) {
         if (toRemove != null) {
-            final android.support.v4.app.FragmentTransaction
+            final FragmentTransaction
                     fragmentTransaction = fragmentManager.beginTransaction();
             fragmentTransaction.remove(toRemove);
             fragmentTransaction.commit();

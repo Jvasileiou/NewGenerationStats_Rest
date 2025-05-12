@@ -4,13 +4,13 @@ import android.app.Dialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatDialogFragment;
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
+import androidx.fragment.app.DialogFragment;
 
 import java.util.Objects;
 
-public class AreYouSureDialog extends AppCompatDialogFragment{
+public class AreYouSureDialog extends DialogFragment{
 
     private DialogListener listener ;
 
@@ -19,7 +19,7 @@ public class AreYouSureDialog extends AppCompatDialogFragment{
     public Dialog onCreateDialog(Bundle savedInstanceState){
 
         AlertDialog.Builder builder = new AlertDialog.Builder(
-                Objects.requireNonNull(getActivity()));
+                requireActivity());
         builder.setTitle("Επιβεβαίωση Επιλογής")
                 .setMessage("Εισαι Σιγουρος/-η ?")
                 .setNegativeButton("cancel", new DialogInterface.OnClickListener() {

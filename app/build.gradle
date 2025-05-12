@@ -1,44 +1,68 @@
 apply plugin: 'com.android.application'
 
 android {
+    namespace 'com.jvvas.restnewgenstats'
     compileSdkVersion 33
+
     defaultConfig {
         applicationId "com.jvvas.restnewgenstats"
-        minSdkVersion 33
+        minSdkVersion 24
         targetSdkVersion 33
         versionCode 1
         versionName "1.0"
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
+
     buildTypes {
         release {
             minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            // Αν έχεις keystore:
+            // signingConfig signingConfigs.release
         }
     }
+
     buildFeatures {
         buildConfig = true
     }
+
     ndkVersion '22.1.7171670'
-    namespace 'com.jvvas.restnewgenstats'
 }
+
+configurations.all {
+    resolutionStrategy.eachDependency { details ->
+        if (details.requested.group == 'org.jetbrains.kotlin') {
+            details.useVersion '1.8.20'
+        }
+    }
+}
+
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'com.android.support:appcompat-v7:28.0.0'
-    implementation 'com.android.support.constraint:constraint-layout:2.0.4'
+
+    // AndroidX Libraries
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.fragment:fragment:1.6.2'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+
+    // Network / Parsing
     implementation 'com.google.code.gson:gson:2.10.1'
     implementation 'com.squareup.retrofit2:retrofit:2.4.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
     implementation 'com.squareup.okhttp3:logging-interceptor:4.2.1'
+
+    // PDF
     implementation 'com.itextpdf:itext7-core:7.1.6'
-//    implementation 'com.job:droidnet:2.0.0'
-    implementation 'com.github.JobGetabu:DroidNet:v2.0.0'
-//    implementation 'com.github.barteksc:android-pdf-viewer:2.8.1'
-//    implementation 'com.github.barteksc:android-pdf-viewer:2.8.2'
     implementation 'com.github.mhiew:android-pdf-viewer:3.2.0-beta.1'
-    implementation 'com.android.support:support-v4:28.0.0'
-    testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'com.android.support.test:runner:1.0.2'
-    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+    // Network Monitoring
+    implementation 'com.github.JobGetabu:DroidNet:v2.0.0'
+
+    // Testing
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    androidTestImplementation 'androidx.test:runner:1.5.2'
 }
